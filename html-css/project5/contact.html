@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="foodshop.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div id="contactus">
+        <h1>Contact Us</h1>
+        <form action="#">
+            <div class="form-shape">
+                <label for="query">
+                    What happened?
+                </label>
+                <select name="myquery" id="query">
+                    <option value="select" selected>
+                        Select
+                    </option>
+                    <option value="order">
+                        Order Issues
+                    </option>
+                    <option value="site">
+                        Site Issues
+                    </option>
+                    <option value="complain">
+                        Complain Issues
+                    </option>
+                    <option value="other">
+                        Other
+                    </option>
+                </select>
+            </div>
+            <div class="form-shape">
+                <label for="name">Name</label>
+                <input type="text" name="myname" id="name"
+                        placeholder="Enter your name">
+            </div>            
+            <div class="form-shape">
+                <label for="name">Email</label>
+                <input type="text" name="myemail" id="email"
+                        placeholder="Enter your email">
+            </div>            
+            <div class="form-shape">
+                <label for="name">Phone</label>
+                <input type="text" name="myphone" id="phone"
+                        placeholder="Enter your phone number">                        
+            </div>
+            <div id="radio">
+                Are you a member of ESpoon&Fork:
+                Yes <input type="radio" name="eligible">
+                No <input type="radio" name="eligible">
+            </div>
+            <div class="form-shape">
+                <label for="message">
+                    Send request
+                </label>
+            <textarea name="message" id="message" cols="30" rows="10">
+            </textarea>
+            </div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>            
+    </div>
+</body>
+</html>

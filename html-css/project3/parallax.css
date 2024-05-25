@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.parallax1 {
+    width: 100%;
+    height: 600px;
+    background: url('images2/prog.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.para1 p {
+    color: greenyellow;
+}
+
+.parallax1 h2 {
+    margin: auto;
+    position: relative;
+    top: 200px;
+    width: 250px;
+    height: 32px;
+    padding: 10px;
+    background-color: black;
+    color: greenyellow;
+    text-align: center;
+    font-size: 23px;
+}
+
+.parallax2 {
+    width: 100%;
+    height: 600px;
+    background: url('images2/prog1.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.parallax2 h2 {
+    margin: auto;
+    position: relative;
+    top: 250px;
+    width: 250px;
+    height: 37px;
+    padding: 10px;
+    background-color: black;
+    color: deepskyblue;
+    text-align: center;
+    font-size: 23px;
+}
+
+.para1 {
+    padding: 50px;
+    background-color: black;
+    color:deepskyblue;
+    font-size: 23px;
+}
+
+.para2 {
+    text-align: center;
+    padding: 25px;
+    font-size: 23px;
+    font-family: Verdana;
+    background-color: black;
+    color:plum;
+}
+
+ 
